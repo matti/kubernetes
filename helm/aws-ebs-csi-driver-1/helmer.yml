@@ -1,0 +1,7 @@
+version: 1
+chart:
+  repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
+  name: aws-ebs-csi-driver
+  version:  2.13.0
+  homepage: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+  values: https://raw.githubusercontent.com/kubernetes-sigs/aws-ebs-csi-driver/release-1.13/charts/aws-ebs-csi-driver/values.yaml

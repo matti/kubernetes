@@ -1,0 +1,9 @@
+version: 1
+chart:
+  repository: https://charts.deliveryhero.io/
+  name: node-problem-detector
+  version: 2.3.1
+  homepage: https://github.com/deliveryhero/helm-charts/tree/master/stable/node-problem-detector
+  values: https://raw.githubusercontent.com/deliveryhero/helm-charts/707be35e85b80eab8b06abcd8c7de2007f6d5ded/stable/node-problem-detector/values.yaml
+app:
+  version: 0.8.12
